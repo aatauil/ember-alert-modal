@@ -1,0 +1,1 @@
+export { default } from 'ember-alert-modal/components/basic-alert';
