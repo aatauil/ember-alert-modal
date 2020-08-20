@@ -1,4 +1,4 @@
-ember-alert-modal
+Ember-Basic-Alert
 ==============================================================================
 
 This addon is an alternative to html alerts. This addon is still in its early stages
@@ -16,7 +16,7 @@ Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install ember-alert-modal
+ember install ember-basic-alert
 ```
 
 
