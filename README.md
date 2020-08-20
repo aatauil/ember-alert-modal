@@ -1,7 +1,7 @@
 ember-alert-modal
 ==============================================================================
 
-[Short description of the addon.]
+This addon is an alternative to html alerts. This addon is still in its early stages
 
 
 Compatibility
@@ -23,7 +23,9 @@ ember install ember-alert-modal
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+```
+<BasicAlert @title='add a title' @subText='add text' @closeText='add close button text'/>
+```
 
 
 Contributing
