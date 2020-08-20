@@ -1,0 +1,16 @@
+
+<div>
+    <button {{on 'click' this.toggleModalState}}>alert</button>
+
+    {{#if this.modalState}}
+        <div class="basic-alert-container">
+            <div class="basic-alert_modal">
+                <div class="basic-alert_message">
+                    <h2 class="basic-alert_title">This is an alert!</h2>  
+                    <p class="basic-alert_sub-text">Give more info about the alert to your user</p>      
+                    <button class="basic-alert_close-btn" {{on 'click' this.toggleModalState}}>Dismiss </button>
+                </div>
+            </div>
+        </div>
+    {{/if}}
+</div>
