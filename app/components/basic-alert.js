@@ -1,1 +1,1 @@
-export { default } from 'ember-alert-modal/components/basic-alert';
+export { default } from 'ember-basic-alert/components/basic-alert';
