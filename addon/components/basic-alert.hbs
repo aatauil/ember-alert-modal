@@ -1,16 +1,15 @@
 
-<div>
-    <button {{on 'click' this.toggleModalState}}>alert</button>
-
-    {{#if this.modalState}}
-        <div class="basic-alert-container">
-            <div class="basic-alert_modal">
-                <div class="basic-alert_message">
-                    <h2 class="basic-alert_title">{{@this.title}}</h2>  
-                    <p class="basic-alert_sub-text">{{@subText}}</p>      
-                    <button class="basic-alert_close-btn" {{on 'click' this.toggleModalState}}>{{@closeText}} </button>
-                </div>
+<button {{on 'click' this.baToggle}}>alert</button>
+{{#if this.openState}}
+    <div class="ba_container">
+        <div class="ba_modal">
+            <div class="ba_top">
+                <h2 class="ba_title">{{this.args.options.title}}</h2>  
+                <p class="ba_sub-text">{{this.args.options.description}}</p>      
+            </div>
+            <div class="ba-bottom">
+               <button type="button" class="ba_close-btn" {{on 'click' this.baToggle}}>{{this.args.options.closeText}}</button>
             </div>
         </div>
-    {{/if}}
-</div>
+    </div>
+{{/if}}
