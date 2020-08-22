@@ -23,6 +23,14 @@ ember install ember-basic-alert
 Usage
 ------------------------------------------------------------------------------
 
+* Import the css file
+
+```
+@import 'basic-alert-default.css'
+```
+
+* use the basic-alert component
+
 ```
 <BasicAlert @title='add a title' @subText='add text' @closeText='add close button text'/>
 ```
