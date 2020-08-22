@@ -1,4 +1,6 @@
-.basic-alert-container{
+
+/* Contains the modal anc sets background transparancy */
+.ba_container{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -11,7 +13,8 @@
     background-color: rgba(172, 172, 172, 0.315);
 }
 
-.basic-alert_modal{
+/* The actual modal square */
+.ba_modal{
     appearance: none;
     display: flex;
     flex-direction: column;
@@ -26,12 +29,18 @@
     transform: translate(-50%, -50%)
 }
 
-.basic-alert_message{
-    padding: .9rem;
+/* container containg the title & sub-text */
+.ba_top{
+    margin: .3rem 0 .3rem 0;
     text-align: center;   
 }
 
-.basic-alert_title{
+.ba-bottom{
+  padding: .6rem;
+}
+
+/* the main title */
+.ba_title{
     padding: 0;
     margin: 0;
     font-size: 1.8rem;
@@ -39,7 +48,9 @@
     margin-top: 1rem;
 }
 
-.basic-alert_sub-text{
+
+/* the sub text under the title */
+.ba_sub-text{
     padding: 0;
     margin: 0;
     font-weight: bold;
@@ -47,7 +58,9 @@
     margin-bottom: 2rem;
 }
 
-.basic-alert_close-btn{
+
+/* the closing button */
+.ba_close-btn{
     padding: 1rem 0px 1rem 0px;
     width: 100%;
     border-radius: .2rem;
